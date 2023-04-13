@@ -8,7 +8,7 @@ create database FMD
 
 use FMD   
 
-  
+  -- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 -- indicamos que vamos a usar la base de datos FMD para guardar las tablas que vamos a crear a continuacion  
 
@@ -58,7 +58,7 @@ Descripcion_publicada text null
 
 );  
 
--- añadimos los datos basicos de la tabla   
+-- aÃ±adimos los datos basicos de la tabla   
 
 alter table publicacion add ID_Perro int null;  
 
@@ -68,7 +68,7 @@ alter table publicacion add constraint FK_ID_Perro
 
               foreign key (ID_Perro) references Datos_Perros (ID_Perro);  
 
--- añado id_perro a la tabla de publicacion y creo la relacion como llave foránea por medio del constraint  
+-- aÃ±ado id_perro a la tabla de publicacion y creo la relacion como llave forÃ¡nea por medio del constraint  
 
   
 
@@ -78,7 +78,7 @@ alter table publicacion add constraint FK_ID_Usuario
 
               foreign key (ID_Usuario) references Datos_Usuarios (ID_Usuario);  
 
--- añado ID_Usuario a la tabla de publicacion y creo la relacion como llave foránea por medio del constraint  
+-- aÃ±ado ID_Usuario a la tabla de publicacion y creo la relacion como llave forÃ¡nea por medio del constraint  
 
   
 
